@@ -196,7 +196,7 @@ section:nth-child(even) {
 .li-view-code, .li-view-app {
   border-style: solid;
   border-width: 1px;
-  width: 33.33%;
+  width: 40%;
 }
 
 .li-view-code:hover, .li-view-app:hover {
