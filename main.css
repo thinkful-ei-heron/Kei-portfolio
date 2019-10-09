@@ -25,17 +25,17 @@ main {
 
 nav,
 footer {
-  background-color: #aaa;
+  background-color: #023B34;
 }
 
 section {
   margin: 0;
   padding: 0;
-  background-color: #bbb;
+  background-color: rgba(118, 184, 173, 0.589);
 }
 
 section:nth-child(even) {
-  background-color: #ddd;
+  background-color: #4BB3A1;
 }
 
 .header-text {
@@ -58,12 +58,25 @@ section:nth-child(even) {
 }
 
 .li-nav-buttons:hover {
-  background-color: #bbb;
+  background-color: black;
 }
 
 .a-nav-buttons {
   text-decoration: none;
   color: inherit;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: white;
+}
+
+.a-nav-buttons-project {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: black;
 }
 
 .headline {
@@ -83,12 +96,14 @@ section:nth-child(even) {
 .headline-text {
   padding: 2% 2%;
   margin: 0;
+  font-weight: normal
 }
 
 .about-me-and-projects {
   flex: 1;
   display: grid;
   grid-template-columns: 50% 50%;
+  text-align: left;
 }
 
 .about-me-link {
@@ -118,7 +133,7 @@ section:nth-child(even) {
 }
 
 .about-me-link, .projects-link {
-  color: darkblue;
+  color: black;
 }
 
 .about-me-header {
@@ -126,6 +141,7 @@ section:nth-child(even) {
   float: left;
   margin: 0;
   padding: 2.5% 0 0 2.5%;
+  color: white
 }
 
 .about-me-text {
@@ -165,7 +181,7 @@ section:nth-child(even) {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  margin: 0;
+  margin: 5px 0 5px 0;
   padding: 0;
   clear: left;
 }
@@ -199,8 +215,8 @@ section:nth-child(even) {
   width: 40%;
 }
 
-.li-view-code:hover, .li-view-app:hover {
-  background-color: darkblue;
+.li-view-code:hover, .li-view-app:hover, .a-nav-buttons-project:hover {
+  background-color: black;
   color: white;
 }
 
@@ -211,6 +227,7 @@ section:nth-child(even) {
 
 .devicon {
   font-size: 200%;
+  color: black;
 }
 
 .project-title {
@@ -233,11 +250,7 @@ section:nth-child(even) {
 }
 
 .fab, .far {
-  color: darkblue;
-}
-
-.devicon {
-  color: darkblue;
+  color: white;
 }
 
 @media screen and (min-width: 650px) {
