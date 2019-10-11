@@ -186,10 +186,18 @@ section:nth-child(even) {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  margin: 5px 0 5px 0;
   padding: 0;
   clear: left;
 }
+
+.contact-me-ul-top {
+  margin: 5px 0 5px 0;
+}
+
+.contact-me-ul-bottom {
+  margin: 5px 0 0 0;
+}
+
 
 .footer-h6 {
   font-size: 15px;
